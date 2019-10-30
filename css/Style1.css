@@ -1,1 +1,28 @@
 /* temp so this pushes correctly */
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+    width: 100%;
+    padding:50px;
+}
+
+nav
+{
+    width: 20%;
+    float: left;
+}
+main
+{
+    padding: 10px;
+    width: 80%;
+    float:right;
+}
+footer
+{
+    text-align: center;
+}
