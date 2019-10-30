@@ -13,15 +13,23 @@ header
 
 nav
 {
+    padding: 10px;
     width: 20%;
     float: left;
 }
+
 main
 {
     padding: 10px;
     width: 80%;
     float:right;
 }
+
+.clearfloat
+{
+    clear: both;
+}
+
 footer
 {
     text-align: center;
