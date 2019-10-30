@@ -17,7 +17,15 @@ nav
     width: 20%;
     float: left;
 }
-
+nav a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 1em;
+    border: 3px #cccccc outset;
+    margin-bottom: 1em;
+}
 main
 {
     padding: 10px;
