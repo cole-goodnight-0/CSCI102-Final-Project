@@ -44,6 +44,12 @@ nav a{
     margin-bottom: 1em;
 }
 
+nav a:hover
+{
+    background-color: #bbb;
+    border: 3px #bbb inset;
+}
+
 nav ul{
     list-style: none;
 }
