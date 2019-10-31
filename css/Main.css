@@ -12,8 +12,10 @@ body
 
 .wrapper
 {
-    width: 90%;
-
+    width: 80%;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 header
@@ -43,7 +45,6 @@ main
 {
     padding: 10px;
     width: 80%;
-    float:right;
     background-color: #fc4;
 }
 
