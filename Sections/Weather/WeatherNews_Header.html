@@ -5,8 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Weather</title>
+    <link rel="stylesheet" href="css/Main.css">
 </head>
-<body>
+<body onload="displayWeather()">
+    <script src="../../js/weatherScript.js"></script>
+    <table>
+        <tr>
+            <th>Temperature</th>
+            <th id="temp">num</th>
+        </tr>
+        <tr>
+            <th>Humidity</th>
+            <th id="humid">num</th>
+            
+        </tr>
+        <tr>
+            <th>Weather</th>
+            <th id="weatherState">num</th>
+        </tr>
+    </table>
     
 </body>
 </html>
