@@ -1,29 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Weather</title>
-    <link rel="stylesheet" href="css/Main.css">
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+    <!-- You can change this later -->
+    <link rel="stylesheet" href="../../css/Main.css">
+    <title>Welcome | Home</title>
 </head>
+
 <body onload="displayWeather()">
-    <script src="../../js/weatherScript.js"></script>
-    <table>
-        <tr>
-            <th>Temperature</th>
-            <th id="temp">num</th>
-        </tr>
-        <tr>
-            <th>Humidity</th>
-            <th id="humid">num</th>
-            
-        </tr>
-        <tr>
-            <th>Weather</th>
-            <th id="weatherState">num</th>
-        </tr>
-    </table>
-    
+    <div class="wrapper">
+        <header>
+            <h1>Final Project</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../Campus News/CampNews_Header.html">Campus News</a></li>
+                <li><a href="../News News/NewsNews_Header.html">WorldWide News</a></li>
+                <li><a href="../Sports/SportsNews_Header.html">Sports</a></li>
+                <li><a href="../Weather/WeatherNews_Header.html">Weather</a></li>
+            </ul>
+
+        </nav>
+        <main>
+            <h2>Weather Forcast</h2>
+            <script src="../../js/weatherScript.js"></script>
+            <table>
+                <tr>
+                    <th>Temperature</th>
+                    <th id="temp">num</th>
+                </tr>
+                <tr>
+                    <th>Humidity</th>
+                    <th id="humid">num</th>
+
+                </tr>
+                <tr>
+                    <th>Weather</th>
+                    <th id="weatherState">num</th>
+                </tr>
+            </table>
+        </main>
+        <div class="clearfloat"></div>
+        <footer>
+            <br>
+            <hr color="#">
+            <br>
+            &copy; Five Guys One News Site Incorporated
+            <br>
+            <br>
+            <hr>
+            <br>
+        </footer>
+    </div>
 </body>
+
 </html>
