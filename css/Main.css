@@ -83,10 +83,9 @@ footer
 {
     display: inline-block;
     width: 30%;
-    height: 5em;
+    height: 7em;
     overflow: hidden;
     padding: 1%;
-    margin-top: 1em;
 }
 
 .storytext
@@ -95,9 +94,13 @@ footer
     float: right;
     width: 60%;
     margin-right: 3%;
-    background-color: #4e7fd4;
-    height: 5em;
+    height: 7em;
     overflow: hidden;
     padding: 1%;
-    margin-top: 1em;
+}
+
+.storycont
+{
+    margin: 1em 0;
+    background-color: #4e7fd4;
 }
