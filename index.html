@@ -12,27 +12,28 @@
 </head>
 <!--Test test-->
 <body>
+    <script src="/js/darkModeToggle.js"></script>
     <div class="wrapper">
-        <header id = "header">
+        <header id = "notheader">
             <h1>Five Guys News</h1>
             <embed src="media/marquee.html" class="marq">
         </header>
-        <nav>
+        <nav id = "notnav">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Sections/Campus News/CampNews_Header.html">Campus News</a></li>
-                <li><a href="Sections/News News/NewsNews_Header.html">WorldWide News</a></li>
-                <li><a href="Sections/Sports/SportsNews_Header.html">Sports</a></li>
-                <li><a href="Sections/Weather/WeatherNews_Header.html">Weather</a></li>
+                <li><a class = "notnava" href="index.html">Home</a></li>
+                <li><a class = "notnava" href="Sections/Campus News/CampNews_Header.html">Campus News</a></li>
+                <li><a class = "notnava" href="Sections/News News/NewsNews_Header.html">WorldWide News</a></li>
+                <li><a class = "notnava" href="Sections/Sports/SportsNews_Header.html">Sports</a></li>
+                <li><a class = "notnava" href="Sections/Weather/WeatherNews_Header.html">Weather</a></li>
                 <li><button onclick = darkModeToggle()>Dark Mode</button></li>
             </ul>
 
         </nav>
-        <main>
+        <main id = "notmain">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quia magnam aspernatur officia culpa at?
         </main>
         <div class="clearfloat"></div>
-        <footer>
+        <footer id ="notfooter">
             <br>
             <hr  color="#769de0">
             <br>
