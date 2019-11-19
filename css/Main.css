@@ -29,6 +29,11 @@ header /* Can be an image later */
     color:  #fff;
 }
 
+.darkHeader {
+    background-color: #161616;
+
+}
+
 nav
 {
     padding: 10px;
@@ -38,6 +43,11 @@ nav
     /* min-height: 500px; */
     margin: 1em 0;
 }
+
+.darkNav {
+    background-color: #333333;
+}
+
 nav a{
     display: block;
     text-decoration: none;
@@ -47,6 +57,11 @@ nav a{
     border: 3px #769de0 outset;
     margin: 1em 0;
     background-color: #769de0;
+}
+
+.darkNavA {
+    background-color: #464646;
+    border: 3px #464646 outset;
 }
 
 nav a:hover
@@ -69,6 +84,14 @@ main
     text-align: justify;
 }
 
+.darkMain {
+    background-color: #464646;
+}
+
+.darkText {
+    color: #fff;
+}
+
 .clearfloat
 {
     clear: both;
@@ -78,6 +101,10 @@ footer
 {
     text-align: center;
     background-color: #4e7fd4;
+}
+
+.darkFooter {
+    background-color: #333333;
 }
 
 .storyimg
