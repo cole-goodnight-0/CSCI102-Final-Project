@@ -2,7 +2,7 @@ function darkModeToggle() {
     // toggle dark stuff
     document.getElementById('notheader').classList.toggle('darkHeader');
     document.getElementById('notnav').classList.toggle('darkNav');
-    //document.getElementsByClassName('notnava').classList.toggle('darkNavA'); //Cannot read property 'toggle', thus just made a bunch of ids
+    //document.getElementsByClassName('notnava').classList.toggle('darkNavA'); //Cannot read property 'toggle', thus just made a bunch of ids\
     document.getElementById('navHome').classList.toggle('darkNavA');
     document.getElementById('navCN').classList.toggle('darkNavA');
     document.getElementById('navWN').classList.toggle('darkNavA');
