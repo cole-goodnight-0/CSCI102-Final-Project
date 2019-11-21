@@ -11,7 +11,24 @@ body
     background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1)), url('../images/water-blue-ocean.jpg');
     background-size: cover;
     background-attachment: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+}
+
+.darkBody {
+    background-image: url(../images/foggy-1149637_1920.jpg);
+}
+
+header img {
+    display: block;
+    float: left;
+}
+
+header h1 {
+    display: block;
+    float: center;
+    padding-right: 3em;
+    padding-left: 2em;
 }
 
 .wrapper
@@ -24,6 +41,7 @@ body
 
 header /* Can be an image later */
 {
+    
     padding:5em 2em 2em 2em;
     background-color: #0a3a8c;
     text-align: left;
