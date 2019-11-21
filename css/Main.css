@@ -62,12 +62,18 @@ nav a{
 .darkNavA {
     background-color: #464646;
     border: 3px #464646 outset;
+    color: white;
 }
 
 nav a:hover
 {
     background-color: #9d9d9d;
     border: 3px #9d9d9d inset;
+}
+
+.darkNavA:hover {
+    background-color: #5c5c5c;
+    border: 3px #464646 outset;
 }
 
 nav ul{
@@ -86,6 +92,7 @@ main
 
 .darkMain {
     background-color: #464646;
+    color: white;
 }
 
 .darkText {
