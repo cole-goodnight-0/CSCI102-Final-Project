@@ -57,6 +57,7 @@ nav a{
     border: 3px #769de0 outset;
     margin: 1em 0;
     background-color: #769de0;
+    color: black;
 }
 
 .darkNavA {
@@ -156,4 +157,36 @@ footer
 .storylink
 {
     color: inherit;
+}
+
+button
+{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 1em;
+    border: 3px #769de0 outset;
+    margin: 1em 0;
+    background-color: #769de0;
+}
+
+.darkButt
+{
+    background-color: #464646;
+    border: 3px #464646 outset;
+    color: white;
+}
+
+button:hover
+{
+    background-color: #9d9d9d;
+    border: 3px #9d9d9d inset;
+}
+
+.darkButt:hover
+{
+    background-color: #5c5c5c;
+    border: 3px #464646 outset;
 }
