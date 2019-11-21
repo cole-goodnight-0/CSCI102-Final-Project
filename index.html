@@ -11,11 +11,11 @@
     <title>Home | 5G1NS</title>
 </head>
 <!--Test test-->
-<body>
+<body id = "notMain">
     <script src="/js/darkModeToggle.js"></script>
     <div class="wrapper">
         <header id = "notheader">
-            <h1>Five Guys News</h1>
+            <img src="/images/Logo2.png" alt="logo2">
             <embed src="media/marquee.html" class="marq">
         </header>
         <nav id = "notnav">
@@ -25,7 +25,7 @@
                 <li><a id = "navWN" href="Sections/News News/NewsNews_Header.html">WorldWide News</a></li>
                 <li><a id = "navSN" href="Sections/Sports/SportsNews_Header.html">Sports</a></li>
                 <li><a id = "navWeather" href="Sections/Weather/WeatherNews_Header.html">Weather</a></li>
-                <li><button onclick = darkModeToggle()>Dark Mode</button></li>
+                <li><button onclick = darkModeToggle() id="butt">Dark Mode</button></li>
             </ul>
 
         </nav>
@@ -37,7 +37,9 @@
             <br>
             <hr  color="252525">
             <br>
-            &copy; Five Guys One News Site Incorporated
+            <div id = "notCopy">
+                &copy; Five Guys One News Site Incorporated
+            </div>
             <br>
             <br>
             <hr color="#252525">
