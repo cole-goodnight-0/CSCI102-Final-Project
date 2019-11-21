@@ -10,5 +10,6 @@ function darkModeToggle() {
     document.getElementById('navWeather').classList.toggle('darkNavA');
     document.getElementById('notmain').classList.toggle('darkMain');
     document.getElementById('notfooter').classList.toggle('darkFooter');
+    document.getElementById('butt').classList.toggle('darkButt');
 
 }
