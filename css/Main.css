@@ -41,14 +41,11 @@ header h1 {
 
 header /* Can be an image later */
 {
-    
-    padding:5em 2em 2em 2em;
+    padding:2em;
     background-color: #0a3a8c;
     text-align: left;
     color:  #fff;
-    background-image: url(../images/Logo2.png);
-    background-repeat: no-repeat;
-    background-size: 12em;
+    background-image: linear-gradient(to right, rgb(0,0,0,0.5), rgb(0,0,0,0));
 }
 
 .darkHeader {
