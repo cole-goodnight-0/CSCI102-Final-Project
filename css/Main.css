@@ -118,10 +118,6 @@ main
     color: white;
 }
 
-.darkText {
-    color: #fff;
-}
-
 .clearfloat
 {
     clear: both;
@@ -140,6 +136,7 @@ footer hr
 
 .darkFooter {
     background-color: #333333;
+    color: #fff;
 }
 
 .darkFooter hr
@@ -215,6 +212,7 @@ button:hover
 {
     background-color: #9d9d9d;
     border: 3px #9d9d9d inset;
+    cursor: pointer;
 }
 
 .darkButt:hover

@@ -12,5 +12,7 @@ function darkModeToggle() {
     
     document.getElementById('notmain').classList.toggle('darkMain');
     document.getElementById('notfooter').classList.toggle('darkFooter');
-    document.getElementById('notCopy').classList.toggle('darkText');
+    //Notcopy can just be added to notfooter
+    document.getElementById('butt').classList.toggle('darkButt');
+    console.log;
 }
