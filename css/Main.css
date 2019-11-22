@@ -46,6 +46,9 @@ header /* Can be an image later */
     background-color: #0a3a8c;
     text-align: left;
     color:  #fff;
+    background-image: url(../images/Logo2.png);
+    background-repeat: no-repeat;
+    background-size: 12em;
 }
 
 .darkHeader {
@@ -130,8 +133,18 @@ footer
     background-color: #4e7fd4;
 }
 
+footer hr
+{
+    border: #4e7fd4 1px outset;
+}
+
 .darkFooter {
     background-color: #333333;
+}
+
+.darkFooter hr
+{
+    border: #333333 1px outset;
 }
 
 .storyimg
