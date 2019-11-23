@@ -93,7 +93,7 @@ nav a:hover
 
 .darkNavA:hover {
     background-color: #5c5c5c;
-    border: 3px #464646 outset;
+    border: 3px #464646 inset;
 }
 
 nav ul{
@@ -166,12 +166,12 @@ footer hr
 .storycont
 {
     margin: 1em 0;
-    background-color: rgb(0,0,0,0.3);
+    background-color: rgb(0,0,0,0.1);
 }
 
 .storycont:hover
 {
-    background-color: rgb(0,0,0,0.1);
+    background-color: rgb(30,30,180,0.2);
 }
 
 .marq
@@ -215,7 +215,7 @@ button:hover
 .darkButt:hover
 {
     background-color: #5c5c5c;
-    border: 3px #464646 outset;
+    border: 3px #464646 inset;
 }
 
 .articleimg
