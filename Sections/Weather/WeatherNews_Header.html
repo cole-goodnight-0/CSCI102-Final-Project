@@ -8,26 +8,28 @@
     <link rel="shortcut icon" href="../../media/favicon.ico" type="image/x-icon">
     <!-- You can change this later -->
     <link rel="stylesheet" href="../../css/Main.css">
-    <title>Weather | 5G1NS</title>
+    <title>Home | 5G1NS</title>
 </head>
-
-<body onload="definitelyARealWeatherAPI()">
+<!--Test test-->
+<body id = "notMain" onload="definitelyARealWeatherAPI()">
+    <script src="../../js/darkModeToggle.js"></script>
     <div class="wrapper">
-        <header>
-            <h1>Five Guys News</h1>
+        <header id = "notheader">
+            <img src="../..//images/Logo2.png" alt="logo2" height="150px" width="">
             <embed src="../../media/marquee.html" class="marq">
         </header>
-        <nav>
+        <nav id = "notnav">
             <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="../Campus News/CampNews_Header.html">Campus News</a></li>
-                <li><a href="../News News/NewsNews_Header.html">WorldWide News</a></li>
-                <li><a href="../Sports/SportsNews_Header.html">Sports</a></li>
-                <li><a href="../Weather/WeatherNews_Header.html">Weather</a></li>
+                <li><a id = "navHome" href="index.html">Home</a></li>
+                <li><a id = "navCN" href="../Campus News/CampNews_Header.html">Campus News</a></li>
+                <li><a id = "navWN" href="../News News/NewsNews_Header.html">WorldWide News</a></li>
+                <li><a id = "navSN" href="../Sports/SportsNews_Header.html">Sports</a></li>
+                <li><a id = "navWeather" href="../Weather/WeatherNews_Header.html">Weather</a></li>
+                <li><button onclick = darkModeToggle() id="butt">Dark Mode</button></li>
             </ul>
 
         </nav>
-        <main>
+        <main id = "notmain">
             <h2>Weather Forcast</h2>
             <script src="../../js/weatherScript.js"></script>
             <table>
@@ -47,14 +49,16 @@
             </table>
         </main>
         <div class="clearfloat"></div>
-        <footer>
+        <footer id ="notfooter">
             <br>
-            <hr color="#769de0">
+            <hr  color="252525">
             <br>
-            &copy; Five Guys One News Site Incorporated
+            <div id = "notCopy">
+                &copy; Five Guys One News Site Incorporated
+            </div>
             <br>
             <br>
-            <hr color="#769de0">
+            <hr color="#252525">
             <br>
         </footer>
     </div>

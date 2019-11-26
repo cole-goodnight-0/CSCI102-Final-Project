@@ -19,6 +19,20 @@ body
     background-image: url(../images/foggy-1149637_1920.jpg);
 }
 
+table {
+    border: 1px solid #161616;
+    border-collapse: collapse;
+
+}
+
+table tr {
+    border: 1px solid #161616;
+}
+
+table tr ts {
+    margin-right: 1em;
+}
+
 header img {
     display: block;
     float: left;
