@@ -261,17 +261,18 @@ button:hover
 }
 .left{
     float: left;
-    width: 25%;
+    width: 20%;
    
-}
-.right{
-    float: right;
-    width: 25%;
 }
 .center{
     margin: none;
     width: 100%;
 }
+.right{
+    float: right;
+    width: 25%;
+}
+
 .floatcenter{
     width: 25%;
     float: center;
