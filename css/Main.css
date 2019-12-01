@@ -261,10 +261,7 @@ button:hover
     margin-left: 30%;
     width: 40%;
 }
-img{
-    size: 15%;
+.txtcenter{
+    text-align: center;
 }
-p{
-    width: 80%;
-    text-align:center;
-}
+
