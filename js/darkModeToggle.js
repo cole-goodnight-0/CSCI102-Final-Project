@@ -9,6 +9,7 @@ function darkModeToggle() {
     document.getElementById('navWN').classList.toggle('darkNavA');
     document.getElementById('navSN').classList.toggle('darkNavA');
     document.getElementById('navWeather').classList.toggle('darkNavA');
+    document.getElementById('navContact').classList.toggle('darkNavA');
     
     document.getElementById('notmain').classList.toggle('darkMain');
     document.getElementById('notfooter').classList.toggle('darkFooter');
