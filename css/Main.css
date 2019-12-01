@@ -261,13 +261,16 @@ button:hover
 }
 .left{
     float: left;
-    width: 30%;
+    width: 25%;
+    margin: 1em;
 }
 .right{
     float: right;
-    width: 30%;
+    width: 25%;
+    margin: 1em;
 }
 .center{
     float: center;
     margin: 1em;
+    width: 25%;
 }
