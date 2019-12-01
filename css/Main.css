@@ -261,7 +261,7 @@ button:hover
 }
 .left{
     float: left;
-    width: 10%;
+    width: 30%;
    
 }
 .center{
@@ -269,6 +269,6 @@ button:hover
 }
 .right{
     float: right;
-    width: 10%;
+    width: 30%;
 }
 
