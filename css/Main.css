@@ -275,4 +275,5 @@ button:hover
 .floatcenter{
     width: 25%;
     float: center;
+    margin: 0;
 }
