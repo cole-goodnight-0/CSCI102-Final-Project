@@ -272,3 +272,7 @@ button:hover
     margin: none;
     width: 100%;
 }
+.floatcenter{
+    width: 25%;
+    float: center;
+}
