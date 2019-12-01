@@ -269,11 +269,11 @@ button:hover
 }
 .right{
     float: right;
-    width: 25%;
+    width: 20%;
 }
 
 .floatcenter{
-    width: 25%;
+    width: 20%;
     float: center;
     margin: 0;
 }
