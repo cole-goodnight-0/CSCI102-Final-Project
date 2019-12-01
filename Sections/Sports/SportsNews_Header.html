@@ -11,62 +11,71 @@
     <title>Sports News | 5G1NS</title>
 </head>
 
-<body>
+<body id="notMain">
+    <script src="../../js/darkModeToggle.js"></script>
     <div class="wrapper">
-        <header>
-            <h1>Five Guys News</h1>
+        <header id="notheader">
             <embed src="../../media/marquee.html" class="marq">
         </header>
-        <nav>
+        <nav id="notnav">
             <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="../Campus News/CampNews_Header.html">Campus News</a></li>
-                <li><a href="../News News/NewsNews_Header.html">WorldWide News</a></li>
-                <li><a href="../Sports/SportsNews_Header.html">Sports</a></li>
-                <li><a href="../Weather/WeatherNews_Header.html">Weather</a></li>
+                <li><a href="../../index.html" id="navHome">Home</a></li>
+                <li><a href="../Campus News/CampNews_Header.html" id="navCN">Campus News</a></li>
+                <li><a href="../News News/NewsNews_Header.html" id="navWN">WorldWide News</a></li>
+                <li><a href="../Sports/SportsNews_Header.html" id="navSN">Sports</a></li>
+                <li><a href="../Weather/WeatherNews_Header.html" id="navWeather">Weather</a></li>
+                <li><button onclick=darkModeToggle() id="butt">Dark Mode</button></li>
             </ul>
 
         </nav>
-        <main>
+        <main id="notmain">
             <h2>Sports</h2>
-            <p>Welcome to the #1 sports newsite on the web. You will find everything from scores of recent games to breaking news. We have it all here at Five Guys News. </p>
+            <p>Welcome to the #1 sports newsite on the web. You will find everything from scores of recent games to
+                breaking news. We have it all here at Five Guys News. </p>
             <br>
             <div class="articles">
                 <h2>Scores</h2>
                 <table border="1px" width="15%">
                     <caption> NFL </caption>
-                <tr>
-                    <td>Seahawks</td>
-                    <td>27</td>
-                </tr>
-                <tr>
-                    <td>49ers</td>
-                    <td>24</td>
-                </tr>
+                    <tr>
+                        <td>Seahawks</td>
+                        <td>27</td>
+                    </tr>
+                    <tr>
+                        <td>49ers</td>
+                        <td>24</td>
+                    </tr>
                 </table>
                 <br>
                 <table border="1px" width="15%">
-                <tr>
-                    <td>Patriots</td>
-                    <td>20</td>
-                </tr>
-                <tr>
-                    <td>Ravens</td>
-                    <td>37</td>
-                </tr>
-            </table>
+                    <tr>
+                        <td>Patriots</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Ravens</td>
+                        <td>37</td>
+                    </tr>
+                </table>
                 <br>
                 <h2>Recent News</h2>
                 <dt>The Seattle Sounders win the MLS Cup 3-1 over the Toronto FC.</dt><br>
-                <dd>The Sounders won their first MLS Cup in Franchise history in 2016, over the same team, Toronto FC. They were second in the standings in the Western Conference after the regular season, having an advantage once the play offs began. Their offense was unstoppable, averaging 3 goals a game and only 1.75 goals scored against them.    
+                <dd>The Sounders won their first MLS Cup in Franchise history in 2016, over the same team, Toronto FC.
+                    They were second in the standings in the Western Conference after the regular season, having an
+                    advantage once the play offs began. Their offense was unstoppable, averaging 3 goals a game and only
+                    1.75 goals scored against them.
                 </dd>
                 <br>
                 <h2>Breaking News</h2>
-                <dd>The Houston Astros were defeated in the 2019 World Series by the Washington Nationals. Although, in 2017 when the Astros won the World Series, there is rumor that they were cheating. Reportedly, they had a camera in center field that would look at the signs that catcher was giving the pitcher, making that batter know what pitch is coming. Their batting averages at home vs away were drastically different. </dd>
+                <dd>The Houston Astros were defeated in the 2019 World Series by the Washington Nationals. Although, in
+                    2017 when the Astros won the World Series, there is rumor that they were cheating. Reportedly, they
+                    had a camera in center field that would look at the signs that catcher was giving the pitcher,
+                    making that batter know what pitch is coming. Their batting averages at home vs away were
+                    drastically different. </dd>
             </div>
         </main>
         <div class="clearfloat"></div>
-        <footer>
+        <footer id="notfooter">
             <br>
             <hr color="#769de0">
             <br>
