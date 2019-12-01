@@ -259,16 +259,4 @@ button:hover
     margin-left: 30%;
     width: 40%;
 }
-.left{
-    float: left;
-    width: 30%;
-   
-}
-.center{
-    width: 100%;
-}
-.right{
-    float: right;
-    width: 30%;
-}
 
