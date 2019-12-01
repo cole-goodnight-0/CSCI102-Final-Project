@@ -8,55 +8,48 @@
     <link rel="shortcut icon" href="../../media/favicon.ico" type="image/x-icon">
     <!-- You can change this later -->
     <link rel="stylesheet" href="../../css/Main.css">
-    <title>WorldWide News | 5G1NS</title>
+    <title>Campus News | 5G1NS</title>
 </head>
 
-<body>
+<body id="notMain">
+    <script src="../../js/darkModeToggle.js"></script>
     <div class="wrapper">
-        <header>
+        <header id="notheader">
             <img src="/images/Logo2.png" alt="logo2" height="150px" width="">
             <embed src="../../media/marquee.html" class="marq">
         </header>
-        <nav>
+        <nav id="notnav">
             <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="../Campus News/CampNews_Header.html">Campus News</a></li>
-                <li><a href="../News News/NewsNews_Header.html">WorldWide News</a></li>
-                <li><a href="../Sports/SportsNews_Header.html">Sports</a></li>
-                <li><a href="../Weather/WeatherNews_Header.html">Weather</a></li>
+                <li><a href="../../index.html" id="navHome">Home</a></li>
+                <li><a href="../Campus News/CampNews_Header.html" id="navCN">Campus News</a></li>
+                <li><a href="../News News/NewsNews_Header.html" id="navWN">WorldWide News</a></li>
+                <li><a href="../Sports/SportsNews_Header.html" id="navSN">Sports</a></li>
+                <li><a href="../Weather/WeatherNews_Header.html" id="navWeather">Weather</a></li>
+                <li><button onclick=darkModeToggle() id="butt">Dark Mode</button></li>
             </ul>
 
         </nav>
-        <main>
-            <h2<b>Worldwide News</b></h2>
-                <br>
-                <br>
-                <h3>Trump impeachment hearings</h3>
-                <img src="../../images/adam-schiff.jpg" alt="adam">
-                <p>Hearings regarding Trump's impeachment trial have come to a close, finishing up with 5 long days of
-                    hearings. Now it is time to wait and see how things turn out in the coming months</p>
-                <br>
-                <img src="../../images/paper-bags-near-wall-749353.jpg" alt="black friday">
-                <h3>Black Friday</h3>
-                <p>This past Friday was Black Friday, did you get anything good? Click here to see some of the best
-                    deals available.</p>
-                <br>
-                <img src="../../images/tower-bridge-726484.jpg" alt="bridge">
-
-                <h3>London Bridge Stabbing</h3>
-                <p>A recent attack against civilians on this famous bridge happened just a few days ago, click here to
-                    find out more.</p>
-
-        </main>
-
-        <footer>
+        <main id="notmain">
             <br>
-            <hr color="#769de0">
+            <a href="NewsNews_Header.html" id="return">&leftarrow; Return</a>
+            <br><br>
+            <div class="articleimg" style="background-image: url('../../images/tower-bridge-726484.jpg');"></div>
+            <br>
+            <h2>London Bridge Stabbing</h2>
+            <p>
+                
+            </p>
+            </a>
+        </main>
+        <div class="clearfloat"></div>
+        <footer id="notfooter">
+            <br>
+            <hr color="#252525">
             <br>
             &copy; Five Guys One News Site Incorporated
             <br>
             <br>
-            <hr color="#769de0">
+            <hr color="#252525">
             <br>
         </footer>
     </div>
