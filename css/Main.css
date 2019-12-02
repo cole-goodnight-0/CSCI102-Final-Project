@@ -43,7 +43,6 @@ header img {
 
 header h1 {
     display: block;
-    float: center;
     padding-right: 3em;
     padding-left: 2em;
 }
@@ -82,6 +81,10 @@ nav
 
 .darkNav {
     background-color: #333333;
+}
+
+hr {
+    color: #252525;
 }
 
 nav a{
