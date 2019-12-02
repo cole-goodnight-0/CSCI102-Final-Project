@@ -32,7 +32,10 @@ table tr {
 table tr ts {
     margin-right: 1em;
 }
-
+table td{
+    text-align: center;
+    padding: 1em;
+}
 header img {
     display: block;
     float: left;
