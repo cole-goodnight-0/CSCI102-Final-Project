@@ -35,6 +35,7 @@ table tr ts {
 table td{
     text-align: center;
     padding: 1em;
+    border: 1px solid #161616;
 }
 header img {
     display: block;
@@ -270,4 +271,6 @@ button:hover
 .txtcenter{
     text-align: center;
 }
-
+.table3{
+    border:"1px"; width:"15%"
+}
